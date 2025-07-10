@@ -87,7 +87,7 @@ Total de alunos distintos: 5
 
 Este repositório contém **duas abordagens diferentes** para resolver o mesmo problema proposto no exercício:
 
-### ✅ Versão Refatorada [`/src/refatorado`](./src/refatorado)
+### ✅ Versão Refatorada [`Application/src/Main.java`](Application/src/Main.java)
 
 > Essa versão foca em aplicar **boas práticas de programação orientada a objetos**, como:
 - Organização em múltiplas classes: `Usuario`, `Aluno`, `Professor`, `Curso`
@@ -99,7 +99,7 @@ Este repositório contém **duas abordagens diferentes** para resolver o mesmo p
 
 ---
 
-### 🛠️ Versão Simples [`/src/simples`](./src/simples)
+### 🛠️ Versão Simples [`SimpleVersion/src/Main.java`](SimpleVersion/src/Main.java)
 
 > Essa versão mostra uma forma mais **direta e funcional** de resolver o problema:
 - Toda a lógica concentrada na `Main`
