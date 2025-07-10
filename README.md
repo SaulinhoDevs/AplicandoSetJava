@@ -83,6 +83,42 @@ Total de alunos distintos: 5
 * Cadastro real com nomes personalizados.
 * Exportação de relatório.
 
+## 🆚 Versão Simples vs Versão Refatorada
+
+Este repositório contém **duas abordagens diferentes** para resolver o mesmo problema proposto no exercício:
+
+### ✅ Versão Refatorada [`/src/refatorado`](./src/refatorado)
+
+> Essa versão foca em aplicar **boas práticas de programação orientada a objetos**, como:
+- Organização em múltiplas classes: `Usuario`, `Aluno`, `Professor`, `Curso`
+- Herança e encapsulamento para reaproveitamento de código
+- Separação de responsabilidades
+- Facilidade para manutenção, testes e futuras melhorias (ex: interface gráfica, persistência em arquivo, etc.)
+
+É a versão que representa um código mais próximo do que se espera em projetos reais, com escalabilidade e legibilidade.
+
+---
+
+### 🛠️ Versão Simples [`/src/simples`](./src/simples)
+
+> Essa versão mostra uma forma mais **direta e funcional** de resolver o problema:
+- Toda a lógica concentrada na `Main`
+- Sem separação de entidades
+- Código mais acoplado, porém funcional
+- Ótima para quem está começando e quer entender o funcionamento básico
+
+---
+
+A ideia de apresentar as duas versões é mostrar que:
+
+> ✔ **Ambas funcionam** — mas uma é mais pensada para o mundo real do desenvolvimento.
+
+Essa comparação ajuda a reforçar o pensamento crítico sobre código:  
+**nem sempre “estar rodando” é o suficiente** — clareza, organização e escalabilidade também importam.
+
+> 💬 _“Código bom não é só aquele que funciona, mas o que pode ser entendido, mantido e evoluído com facilidade.”_
+
+
 ## 👨‍🏫 Autor
 
 Desenvolvido por **Saulo Melo** — estudante de Análise e Desenvolvimento de Sistemas.
